@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CFD2C6B8-D57D-4C04-99FE-D89F414359C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Neonatal_SanBartolome</RootNamespace>
+    <AssemblyName>Neonatal_SanBartolome</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FuncionesGenerales.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal2.Designer.cs">
+      <DependentUpon>Principal2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resultado\BuscarResultadoTarjeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resultado\BuscarResultadoTarjeta.Designer.cs">
+      <DependentUpon>BuscarResultadoTarjeta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Muestra\MuestraxHospital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muestra\MuestraxHospital.Designer.cs">
+      <DependentUpon>MuestraxHospital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Muestra\BuscarMuestra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muestra\BuscarMuestra.Designer.cs">
+      <DependentUpon>BuscarMuestra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resultado\ConsultarResultados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resultado\ConsultarResultados.Designer.cs">
+      <DependentUpon>ConsultarResultados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarjetas\AdministrarEnvios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarjetas\AdministrarEnvios.Designer.cs">
+      <DependentUpon>AdministrarEnvios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarjetas\AdministrarRecepciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarjetas\AdministrarRecepciones.Designer.cs">
+      <DependentUpon>AdministrarRecepciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarjetas\EnvioTarjetas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarjetas\EnvioTarjetas.Designer.cs">
+      <DependentUpon>EnvioTarjetas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarjetas\RecepcionTarjetas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarjetas\RecepcionTarjetas.Designer.cs">
+      <DependentUpon>RecepcionTarjetas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarjetas\RegistrarEnvio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarjetas\RegistrarEnvio.Designer.cs">
+      <DependentUpon>RegistrarEnvio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tarjetas\RegistrarRecepcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tarjetas\RegistrarRecepcion.Designer.cs">
+      <DependentUpon>RegistrarRecepcion.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal2.resx">
+      <DependentUpon>Principal2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resultado\BuscarResultadoTarjeta.resx">
+      <DependentUpon>BuscarResultadoTarjeta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muestra\MuestraxHospital.resx">
+      <DependentUpon>MuestraxHospital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Muestra\BuscarMuestra.resx">
+      <DependentUpon>BuscarMuestra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resultado\ConsultarResultados.resx">
+      <DependentUpon>ConsultarResultados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarjetas\AdministrarEnvios.resx">
+      <DependentUpon>AdministrarEnvios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarjetas\AdministrarRecepciones.resx">
+      <DependentUpon>AdministrarRecepciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarjetas\EnvioTarjetas.resx">
+      <DependentUpon>EnvioTarjetas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarjetas\RecepcionTarjetas.resx">
+      <DependentUpon>RecepcionTarjetas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarjetas\RegistrarEnvio.resx">
+      <DependentUpon>RegistrarEnvio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tarjetas\RegistrarRecepcion.resx">
+      <DependentUpon>RegistrarRecepcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BC\BC.csproj">
+      <Project>{E6C156BD-1C14-45DD-BB85-E83DC3E28124}</Project>
+      <Name>BC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BE\BE.csproj">
+      <Project>{628A9553-4249-44DE-86CD-A88C3245C7B7}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\LogoCiansaTiny.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Login\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Iconos\delete.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
