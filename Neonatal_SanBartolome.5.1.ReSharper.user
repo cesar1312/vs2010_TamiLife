@@ -1,0 +1,431 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="640A7B9A-8EDF-43B5-91F1-9492E36788E7/f:RecepcionDA.cs" caret="301" fromTop="14" />
+      <File id="E6C156BD-1C14-45DD-BB85-E83DC3E28124/f:RecepcionBC.cs" caret="623" fromTop="9" />
+      <File id="E6C156BD-1C14-45DD-BB85-E83DC3E28124/f:TarjetaBC.cs" caret="112" fromTop="6" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RegistrarEnvio.cs" caret="3770" fromTop="111" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RecepcionTarjetas.cs" caret="677" fromTop="14" />
+      <File id="E6C156BD-1C14-45DD-BB85-E83DC3E28124/f:HospitalBC.cs" caret="535" fromTop="19" />
+      <File id="E6C156BD-1C14-45DD-BB85-E83DC3E28124/f:ParametroGeneralBC.cs" caret="690" fromTop="23" />
+      <File id="640A7B9A-8EDF-43B5-91F1-9492E36788E7/f:AccesoDB.cs" caret="718" fromTop="20" />
+      <File id="640A7B9A-8EDF-43B5-91F1-9492E36788E7/f:EstablecimientoDA.cs" caret="241" fromTop="12" />
+      <File id="E6C156BD-1C14-45DD-BB85-E83DC3E28124/f:EstablecimientoBC.cs" caret="582" fromTop="17" />
+      <File id="640A7B9A-8EDF-43B5-91F1-9492E36788E7/f:EnvioDA.cs" caret="3983" fromTop="90" />
+      <File id="E6C156BD-1C14-45DD-BB85-E83DC3E28124/f:EnvioBC.cs" caret="457" fromTop="16" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Resultado/f:ConsultarResultados.cs" caret="2289" fromTop="41" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/f:Program.cs" caret="484" fromTop="17" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/f:Principal.cs" caret="1990" fromTop="18" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/f:Principal2.cs" caret="460" fromTop="14" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/f:Main.cs" caret="393" fromTop="0" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/f:App.config" caret="678" fromTop="13" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/f:Main.Designer.cs" caret="2183" fromTop="0" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:AdministrarRecepciones.cs" caret="492" fromTop="0" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:AdministrarEnvios.cs" caret="9085" fromTop="18" />
+      <File id="640A7B9A-8EDF-43B5-91F1-9492E36788E7/f:ResultadoDA.cs" caret="7297" fromTop="24" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Muestra/f:MuestraxHospital.cs" caret="2071" fromTop="18" />
+      <File id="E6C156BD-1C14-45DD-BB85-E83DC3E28124/f:MuestraBC.cs" caret="379" fromTop="15" />
+      <File id="640A7B9A-8EDF-43B5-91F1-9492E36788E7/f:MuestraDA.cs" caret="556" fromTop="0" />
+      <File id="13DF2953-1E94-43D2-A376-88BAE831A7D7/d:Styles/f:Site.css" caret="1778" fromTop="117" />
+      <File id="13DF2953-1E94-43D2-A376-88BAE831A7D7/f:Default.aspx" caret="0" fromTop="0" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RegistrarRecepcion.Designer.cs" caret="7935" fromTop="2" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RegistrarRecepcion.cs" caret="991" fromTop="12" />
+      <File id="13DF2953-1E94-43D2-A376-88BAE831A7D7/f:Site.Master" caret="785" fromTop="13" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/f:Main.Designer.cs" caret="5127" fromTop="14" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/f:Main.Designer.cs" caret="4038" fromTop="5" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/f:Main.Designer.cs" caret="3091" fromTop="7" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/f:Main.Designer.cs" caret="2287" fromTop="0" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/f:Main.Designer.cs" caret="7556" fromTop="0" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:AdministrarRecepciones.cs" caret="791" fromTop="11" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:AdministrarRecepciones.cs" caret="791" fromTop="14" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:AdministrarRecepciones.cs" caret="791" fromTop="14" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:AdministrarRecepciones.cs" caret="791" fromTop="14" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:AdministrarRecepciones.cs" caret="791" fromTop="0" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:AdministrarEnvios.cs" caret="8887" fromTop="12" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:AdministrarEnvios.cs" caret="9085" fromTop="18" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:AdministrarEnvios.cs" caret="9119" fromTop="18" />
+      <File id="13DF2953-1E94-43D2-A376-88BAE831A7D7/f:Site.Master" caret="684" fromTop="16" />
+      <File id="13DF2953-1E94-43D2-A376-88BAE831A7D7/f:Site.Master" caret="2546" fromTop="13" />
+      <File id="640A7B9A-8EDF-43B5-91F1-9492E36788E7/f:MuestraDA.cs" caret="866" fromTop="15" />
+      <File id="640A7B9A-8EDF-43B5-91F1-9492E36788E7/f:MuestraDA.cs" caret="6558" fromTop="0" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RegistrarRecepcion.Designer.cs" caret="8889" fromTop="0" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RegistrarRecepcion.Designer.cs" caret="8889" fromTop="26" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RegistrarRecepcion.Designer.cs" caret="8889" fromTop="15" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RegistrarRecepcion.Designer.cs" caret="9087" fromTop="15" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RegistrarRecepcion.Designer.cs" caret="9799" fromTop="3" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RegistrarRecepcion.Designer.cs" caret="8691" fromTop="3" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RegistrarRecepcion.Designer.cs" caret="8275" fromTop="9" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RegistrarRecepcion.Designer.cs" caret="9254" fromTop="9" />
+      <File id="13DF2953-1E94-43D2-A376-88BAE831A7D7/f:Site.Master" caret="2051" fromTop="10" />
+      <File id="13DF2953-1E94-43D2-A376-88BAE831A7D7/f:Site.Master" caret="2494" fromTop="23" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RegistrarRecepcion.Designer.cs" caret="6956" fromTop="2" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RegistrarRecepcion.Designer.cs" caret="8339" fromTop="2" />
+      <File id="CFD2C6B8-D57D-4C04-99FE-D89F414359C6/d:Tarjetas/f:RegistrarRecepcion.cs" caret="888" fromTop="5" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="22" />
+      <Item value="BE" priority="10" />
+      <Item value="System" priority="2" />
+      <Item value="Configuration" priority="0" />
+      <Item value="Data" priority="0" />
+      <Item value="Linq" priority="0" />
+      <Item value="DA" priority="4" />
+      <Item value="Muestra" priority="2" />
+      <Item value="MuestraxHospital`0" priority="0" />
+      <Item value="BC" priority="4" />
+      <Item value="dgvResultados" priority="4" />
+      <Item value="DialogResult`0" priority="1" />
+      <Item value="saveFileDialog1" priority="1" />
+      <Item value="string" priority="12" />
+      <Item value="ruta" priority="0" />
+      <Item value="folderBrowserDialog1" priority="0" />
+      <Item value="ResultadoDA`0" priority="0" />
+      <Item value="new" priority="22" />
+      <Item value="ResultadoDA" priority="0" />
+      <Item value="false" priority="12" />
+      <Item value="buscar" priority="0" />
+      <Item value="true" priority="13" />
+      <Item value="Maximized" priority="0" />
+      <Item value="PropertyInformation`0" priority="0" />
+      <Item value="prop" priority="0" />
+      <Item value="LifeCycleDBDataContext`0" priority="0" />
+      <Item value="lifecycle_dc" priority="0" />
+      <Item value="LifeCycleDBDataContext" priority="0" />
+      <Item value="public" priority="3" />
+      <Item value="List" priority="11" />
+      <Item value="Contact`0" priority="4" />
+      <Item value="h" priority="0" />
+      <Item value="EnvironmentVariableTarget`0" priority="0" />
+      <Item value="HospitalDA`0" priority="0" />
+      <Item value="HospitalDA" priority="0" />
+      <Item value="hospitalDA" priority="1" />
+      <Item value="cmbHospitales" priority="11" />
+      <Item value="HospitalBC`0" priority="2" />
+      <Item value="HospitalBC" priority="1" />
+      <Item value="ParametroGeneral`0" priority="0" />
+      <Item value="return" priority="8" />
+      <Item value="da" priority="3" />
+      <Item value="cmbPrueba" priority="2" />
+      <Item value="cmbTipoResultados" priority="2" />
+      <Item value="int" priority="14" />
+      <Item value="if" priority="5" />
+      <Item value="contactId" priority="2" />
+      <Item value="query" priority="0" />
+      <Item value="testId" priority="2" />
+      <Item value="tipoResultado" priority="0" />
+      <Item value="SaveFileDialog`0" priority="0" />
+      <Item value="DataTable`0" priority="0" />
+      <Item value="IFormatProvider`0" priority="1" />
+      <Item value="year" priority="0" />
+      <Item value="MuestraBC`0" priority="0" />
+      <Item value="MuestraBC" priority="0" />
+      <Item value="muestraDA" priority="0" />
+      <Item value="nombresNeonato" priority="2" />
+      <Item value="apellidosNeonato" priority="0" />
+      <Item value="dni" priority="2" />
+      <Item value="hClinica" priority="2" />
+      <Item value="txtNombresNeonato" priority="0" />
+      <Item value="txtApellidosNeonato" priority="0" />
+      <Item value="txtDNI_Madre" priority="0" />
+      <Item value="historiaClinica" priority="0" />
+      <Item value="txtHClinica" priority="0" />
+      <Item value="BuscarMuestra`0" priority="0" />
+      <Item value="Resultado" priority="0" />
+      <Item value="ResultadoBC`0" priority="0" />
+      <Item value="ResultadoBC" priority="0" />
+      <Item value="codigoMuestra" priority="3" />
+      <Item value="resultadoDA" priority="0" />
+      <Item value="txtCodigoMuestra" priority="0" />
+      <Item value="else" priority="1" />
+      <Item value="MessageBox`0" priority="0" />
+      <Item value="MessageBox" priority="0" />
+      <Item value="mensaje" priority="0" />
+      <Item value="BuscarResultadoTarjeta`0" priority="0" />
+      <Item value="Recepcion`0" priority="0" />
+      <Item value="RecepcionDA`0" priority="0" />
+      <Item value="RecepcionDA" priority="0" />
+      <Item value="idHospital" priority="0" />
+      <Item value="anho" priority="1" />
+      <Item value="mes" priority="1" />
+      <Item value="recepcion" priority="0" />
+      <Item value="RecepcionBC`0" priority="2" />
+      <Item value="RecepcionTarjetas`0" priority="0" />
+      <Item value="ComboBox`0" priority="1" />
+      <Item value="Hospitales" priority="0" />
+      <Item value="Contact" priority="0" />
+      <Item value="contactoTodos" priority="2" />
+      <Item value="hospitales" priority="1" />
+      <Item value="setRowNumber`0" priority="0" />
+      <Item value="AdministrarEnvios`0" priority="0" />
+      <Item value="tsbGuardar" priority="1" />
+      <Item value="tsbCancelar" priority="0" />
+      <Item value="tsbEditar" priority="1" />
+      <Item value="private" priority="7" />
+      <Item value="void" priority="5" />
+      <Item value="bool" priority="4" />
+      <Item value="tsbGenerar" priority="0" />
+      <Item value="estado" priority="0" />
+      <Item value="TamiLifeDBDataContext`0" priority="0" />
+      <Item value="Vista_ListaTarjeta`0" priority="3" />
+      <Item value="dtpFechaEnvio" priority="3" />
+      <Item value="txtCodigoInicial" priority="3" />
+      <Item value="txtCodigoFinal" priority="2" />
+      <Item value="dgvTarjetas" priority="4" />
+      <Item value="readonly" priority="4" />
+      <Item value="dateTimePicker2" priority="0" />
+      <Item value="DateTime`0" priority="1" />
+      <Item value="tslTitulo" priority="1" />
+      <Item value="esNuevo" priority="2" />
+      <Item value="LimpiarControles`0" priority="1" />
+      <Item value="Envio`0" priority="2" />
+      <Item value="Envio" priority="1" />
+      <Item value="envio" priority="14" />
+      <Item value="EnvioBC`0" priority="0" />
+      <Item value="EnvioBC" priority="0" />
+      <Item value="envioBC" priority="2" />
+      <Item value="for" priority="0" />
+      <Item value="Tarjeta`0" priority="3" />
+      <Item value="Tarjeta" priority="0" />
+      <Item value="tarjeta" priority="6" />
+      <Item value="i" priority="0" />
+      <Item value="List&lt;Tarjeta&gt;" priority="0" />
+      <Item value="TarjetaBC`0" priority="2" />
+      <Item value="TarjetaBC" priority="2" />
+      <Item value="tarjetaBC" priority="3" />
+      <Item value="listaTarjetas" priority="0" />
+      <Item value="var" priority="3" />
+      <Item value="cmbHospitalesBuscar" priority="4" />
+      <Item value="Vista_ListaEnvio`0" priority="0" />
+      <Item value="listaEnvio" priority="1" />
+      <Item value="cmbAnho" priority="0" />
+      <Item value="cmbMes" priority="2" />
+      <Item value="dgvEnvios" priority="2" />
+      <Item value="ParametroGeneralBC`0" priority="2" />
+      <Item value="ParametroGeneralBC" priority="0" />
+      <Item value="lista" priority="3" />
+      <Item value="parametroTodos" priority="0" />
+      <Item value="parametroGeneralBC" priority="1" />
+      <Item value="listaMeses" priority="1" />
+      <Item value="Establecimiento`0" priority="5" />
+      <Item value="EstablecimientoBC" priority="0" />
+      <Item value="establecimientos" priority="0" />
+      <Item value="establecimientoBC" priority="1" />
+      <Item value="idEstablecimiento" priority="0" />
+      <Item value="Nombre" priority="0" />
+      <Item value="establecimiento" priority="3" />
+      <Item value="Establecimiento" priority="0" />
+      <Item value="CargarMes`0" priority="0" />
+      <Item value="CargarAnho`0" priority="0" />
+      <Item value="CargarEstablecimiento`0" priority="0" />
+      <Item value="listaEstablecimientos" priority="2" />
+      <Item value="idEnvio" priority="2" />
+      <Item value="tarjetas" priority="0" />
+      <Item value="DesbloquearControles`0" priority="2" />
+      <Item value="Principal`0" priority="0" />
+      <Item value="Main`0" priority="0" />
+      <Item value="dataGrid1" priority="0" />
+      <Item value="tarjetaBc" priority="1" />
+      <Item value="AdministrarRecepciones`0" priority="0" />
+      <Item value="RegistrarRecepcion`0" priority="1" />
+      <Item value="registrar" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Office.Interop.Excel._Workbook">
+      <Item value="SaveAs`0" priority="0" />
+      <Item value="SaveCopyAs`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.SaveFileDialog">
+      <Item value="ShowDialog`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.FolderBrowserDialog">
+      <Item value="SelectedPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridView">
+      <Item value="AutoGenerateColumns" priority="2" />
+      <Item value="DataSource" priority="5" />
+      <Item value="DisplayedColumnCount`0" priority="0" />
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Neonatal_SanBartolome.Muestra.MuestraxHospital">
+      <Item value="MaximizeBox" priority="0" />
+      <Item value="WindowState" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.AccesoDB">
+      <Item value="lifecycle_dc" priority="0" />
+      <Item value="tamilife_dc" priority="2" />
+      <Item value="conexionTamiLife" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.LifeCycleDBDataContext">
+      <Item value="Contacts" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Contact">
+      <Item value="cntActive" priority="0" />
+      <Item value="cntValid" priority="0" />
+      <Item value="ContactId" priority="0" />
+      <Item value="cntFacility" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.HospitalDA">
+      <Item value="ListaHospitales`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="DataSource" priority="1" />
+      <Item value="Select`0" priority="0" />
+      <Item value="Items" priority="0" />
+      <Item value="SelectedValue" priority="7" />
+      <Item value="Enabled" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.HospitalBC">
+      <Item value="ListaHospitales`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.ParametroGeneralBC">
+      <Item value="ListaPruebas`0" priority="0" />
+      <Item value="ListarTipoResultados`0" priority="0" />
+      <Item value="AgregarParametroTodos`0" priority="0" />
+      <Item value="ListaAnhos`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.ParametroGeneralDA">
+      <Item value="ListarTipoResultados`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="CompareTo`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.MuestraBC">
+      <Item value="BuscarResultadoxMuestra`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="9" />
+      <Item value="Enabled" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.ResultadoDA">
+      <Item value="BuscarResultadoxTarjeta`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.SanBartolomeDataContext">
+      <Item value="Recepcions" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Recepcion">
+      <Item value="idRecepcion" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.RecepcionDA">
+      <Item value="ObtenerRecepciones`0" priority="0" />
+      <Item value="RegistrarRecepcion`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.RecepcionBC">
+      <Item value="RegistrarRecepcion`0" priority="0" />
+      <Item value="ObtenerRecepciones`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox+ObjectCollection">
+      <Item value="Add`0" priority="0" />
+      <Item value="Insert`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripButton">
+      <Item value="Visible" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.TamiLifeDBDataContext">
+      <Item value="ParametroGenerals" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DateTimePicker">
+      <Item value="Enabled" priority="0" />
+      <Item value="Value" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Today" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripLabel">
+      <Item value="Text" priority="0" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Envio">
+      <Item value="CodigoInicial" priority="2" />
+      <Item value="CodigoFinal" priority="2" />
+      <Item value="FechaEnvio" priority="1" />
+      <Item value="idEstablecimiento" priority="1" />
+      <Item value="idEnvio" priority="1" />
+      <Item value="Estado" priority="0" />
+      <Item value="TieneRecepciones" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.EnvioBC">
+      <Item value="RegistrarEnvio`0" priority="0" />
+      <Item value="ObtenerEnvios`0" priority="0" />
+      <Item value="ObtenerEnvio`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Tarjeta">
+      <Item value="CodigoMuestra" priority="0" />
+      <Item value="idEstablecimiento" priority="0" />
+      <Item value="Estado" priority="0" />
+      <Item value="idEnvio" priority="0" />
+      <Item value="Recibido" priority="0" />
+      <Item value="Rechazado" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.TarjetaBC">
+      <Item value="RegitrarTarjetas`0" priority="0" />
+      <Item value="ObtenerListaTarjetas`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.ParametroGeneral">
+      <Item value="idParametroGeneral" priority="0" />
+      <Item value="ValorTexto" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.EstablecimientoBC">
+      <Item value="ObtenerEstablecimientosxTipo`0" priority="0" />
+      <Item value="AddEstablecimientosTodos`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Establecimiento">
+      <Item value="idEstablecimiento" priority="0" />
+      <Item value="Nombre" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Year" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Tomato" priority="1" />
+      <Item value="Black" priority="2" />
+      <Item value="Gold" priority="2" />
+      <Item value="White" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Neonatal_SanBartolome.Tarjetas.RegistrarRecepcion">
+      <Item value="Show`0" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewImageColumn">
+      <Item value="ValuesAreIcons" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
