@@ -1,0 +1,7 @@
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\Neonatal_SanBartolome\DA\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\Neonatal_SanBartolome\DA\bin\Debug\DA.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\Neonatal_SanBartolome\DA\bin\Debug\DA.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\Neonatal_SanBartolome\DA\bin\Debug\BE.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\Neonatal_SanBartolome\DA\bin\Debug\BE.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\Neonatal_SanBartolome\DA\obj\Debug\DA.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\Neonatal_SanBartolome\DA\obj\Debug\DA.pdb
