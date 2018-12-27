@@ -1,0 +1,5 @@
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\Neonatal_SanBartolome\TamizajePortalSB\bin\TamizajePortalSB.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\Neonatal_SanBartolome\TamizajePortalSB\bin\TamizajePortalSB.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\Neonatal_SanBartolome\TamizajePortalSB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\Neonatal_SanBartolome\TamizajePortalSB\obj\Debug\TamizajePortalSB.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\Neonatal_SanBartolome\TamizajePortalSB\obj\Debug\TamizajePortalSB.pdb
