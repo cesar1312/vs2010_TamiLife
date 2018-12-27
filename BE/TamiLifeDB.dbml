@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TamiLife" Class="TamiLifeDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=WIN7-PC\SQLEXPRESS2012;Initial Catalog=TamiLife;Integrated Security=True" SettingsObjectName="BE.Properties.Settings" SettingsPropertyName="TamiLifeConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ParametroGeneral" Member="ParametroGenerals">
+    <Type Name="ParametroGeneral">
+      <Column Name="idParametroGeneral" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ValorTexto" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="ValorEntero" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ValorReal" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Grupo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SubGrupo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TipoEstablecimiento" Member="TipoEstablecimientos">
+    <Type Name="TipoEstablecimiento">
+      <Column Name="idTipoEstablecimiento" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="TipoEstablecimiento_Establecimiento" Member="Establecimientos" ThisKey="idTipoEstablecimiento" OtherKey="idTipoEstablecimiento" Type="Establecimiento" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Establecimiento" Member="Establecimientos">
+    <Type Name="Establecimiento">
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idTipoEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Telefono1" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Telefono2" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Departamento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Provincia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Distrito" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Codigo" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="CodRenaes" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="Establecimiento_Envio" Member="Envios" ThisKey="idEstablecimiento" OtherKey="idEstablecimiento" Type="Envio" />
+      <Association Name="Establecimiento_Tarjeta" Member="Tarjetas" ThisKey="idEstablecimiento" OtherKey="idEstablecimiento" Type="Tarjeta" />
+      <Association Name="Establecimiento_Recepcion" Member="Recepcions" ThisKey="idEstablecimiento" OtherKey="idEstablecimiento" Type="Recepcion" />
+      <Association Name="TipoEstablecimiento_Establecimiento" Member="TipoEstablecimiento" ThisKey="idTipoEstablecimiento" OtherKey="idTipoEstablecimiento" Type="TipoEstablecimiento" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Envio" Member="Envios">
+    <Type Name="Envio">
+      <Column Name="idEnvio" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FechaEnvio" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="IDUsuarioRegistro" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoInicial" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoFinal" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TieneRecepciones" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Envio_Tarjeta" Member="Tarjetas" ThisKey="idEnvio" OtherKey="idEnvio" Type="Tarjeta" />
+      <Association Name="Establecimiento_Envio" Member="Establecimiento" ThisKey="idEstablecimiento" OtherKey="idEstablecimiento" Type="Establecimiento" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tarjeta" Member="Tarjetas">
+    <Type Name="Tarjeta">
+      <Column Name="idTarjeta" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Recibido" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="NumResultados" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idEnvio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idRecepcion" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Rechazado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Envio_Tarjeta" Member="Envio" ThisKey="idEnvio" OtherKey="idEnvio" Type="Envio" IsForeignKey="true" />
+      <Association Name="Establecimiento_Tarjeta" Member="Establecimiento" ThisKey="idEstablecimiento" OtherKey="idEstablecimiento" Type="Establecimiento" IsForeignKey="true" />
+      <Association Name="Recepcion_Tarjeta" Member="Recepcion" ThisKey="idRecepcion" OtherKey="idRecepcion" Type="Recepcion" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ubigeo" Member="Ubigeos">
+    <Type Name="Ubigeo">
+      <Column Name="idUbigeo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CodDepartamento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CodProvincia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CodDistrito" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Recepcion" Member="Recepcions">
+    <Type Name="Recepcion">
+      <Column Name="idRecepcion" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FechaRecepcion" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="IDUsuarioRegistro" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Recepcion_Tarjeta" Member="Tarjetas" ThisKey="idRecepcion" OtherKey="idRecepcion" Type="Tarjeta" />
+      <Association Name="Establecimiento_Recepcion" Member="Establecimiento" ThisKey="idEstablecimiento" OtherKey="idEstablecimiento" Type="Establecimiento" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Rango" Member="Rangos">
+    <Type Name="Rango">
+      <Column Name="idRango" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Rango" Member="Rango1" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="idPrueba" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaRegistro" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Prueba" Member="Pruebas">
+    <Type Name="Prueba">
+      <Column Name="idPrueba" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NombreCorto" Type="System.String" DbType="NVarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="Metodo" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Unidad" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_ListaTarjetas" Member="Vista_ListaTarjetas">
+    <Type Name="Vista_ListaTarjeta">
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Rechazado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Recibido" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FechaEnvio" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="FechaRecepcion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="idEnvio" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idTarjeta" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idRecepcion" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_ListaRecepciones" Member="Vista_ListaRecepciones">
+    <Type Name="Vista_ListaRecepcione">
+      <Column Name="idRecepcion" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FechaRecepcion" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="idTipoEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TipoEstablecimiento" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_ListaEnvios" Member="Vista_ListaEnvios">
+    <Type Name="Vista_ListaEnvio">
+      <Column Name="idEnvio" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FechaEnvio" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="CodigoInicial" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoFinal" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="idTipoEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TipoEstablecimiento" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TieneRecepciones" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_Establecimientos" Member="Vista_Establecimientos">
+    <Type Name="Vista_Establecimiento">
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Codigo" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="idTipoEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="TipoEstablecimiento" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Direccion" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Telefono1" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Telefono2" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="depUbigeo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="proUbigeo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="disUbigeo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Departamento" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Provincia" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Distrito" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LifeCycleDB">
+  <DataContextMoniker Name="/LifeCycleDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="850a4c00-adc5-4077-8a1a-68cec4a8daaa" absoluteBounds="0.75, 0.5, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/LifeCycleDBDataContext/Contact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="51493e79-3e41-473a-84c8-66f7c06a1f5c" absoluteBounds="0.76499999999999968, 0.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

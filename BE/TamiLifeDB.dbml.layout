@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14, 13.75" name="TamiLifeDB">
+  <DataContextMoniker Name="/TamiLifeDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f7ac895f-56dd-4d8d-b9e3-7704e9668427" absoluteBounds="0.75, 6.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/TamiLifeDBDataContext/ParametroGeneral" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bc8a2830-1e87-4628-8fce-c1d91a0cb7ec" absoluteBounds="0.765, 7.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ae0eed32-8194-4d93-9d04-13fc6cbaccc3" absoluteBounds="0.75, 2.875, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/TamiLifeDBDataContext/TipoEstablecimiento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2ee38acf-0a3f-4b27-87b4-2764fefb856e" absoluteBounds="0.765, 3.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7a0660b4-8bfe-4b24-8d99-12b9cc84d1c5" absoluteBounds="3.5, 2, 2, 3.1170068359375">
+      <DataClassMoniker Name="/TamiLifeDBDataContext/Establecimiento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb14b635-8631-4bf7-a83f-7bd8bdd18be1" absoluteBounds="3.515, 2.46, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2d6b4806-7b71-4d18-94ea-c36d6e635ca6" absoluteBounds="6.25, 3.75, 2, 2.347801106770834">
+      <DataClassMoniker Name="/TamiLifeDBDataContext/Envio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="59a5a4b2-1816-4ce4-a362-2e5d70668f1c" absoluteBounds="6.265, 4.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ab534685-abff-4fcb-b931-c530ae7000b8" absoluteBounds="9, 2.375, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/TamiLifeDBDataContext/Tarjeta" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ff43657a-39cc-45f2-891b-d9fdcadcde01" absoluteBounds="9.015, 2.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7ba3b811-06c1-4140-b5c0-ef408fe675ae" absoluteBounds="3.75, 7.75, 2, 1.7708968098958335">
+      <DataClassMoniker Name="/TamiLifeDBDataContext/Ubigeo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9082dbe4-2ba0-474d-9b2d-d6ee3b8b3893" absoluteBounds="3.765, 8.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5b84d8cd-45a7-4a53-ab0d-c20db7f8cf3d" absoluteBounds="6.25, 1.125, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/TamiLifeDBDataContext/Recepcion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f9f710fc-3987-42a4-b6a2-b1dc53100ec4" absoluteBounds="6.265, 1.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8b5592b3-0606-4035-a0bd-f47f392ce9ab" absoluteBounds="6.75, 7.75, 2, 1.7708968098958335">
+      <DataClassMoniker Name="/TamiLifeDBDataContext/Rango" />
+      <nestedChildShapes>
+        <elementListCompartment Id="89b15f29-1b7a-4b6d-aa84-aedc83a0ac7b" absoluteBounds="6.765, 8.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="21d36953-6650-4b1b-931c-5bbd6c42a732" absoluteBounds="9.75, 5.75, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/TamiLifeDBDataContext/Prueba" />
+      <nestedChildShapes>
+        <elementListCompartment Id="240a131f-39ac-4cb3-a2d9-d88e683befb0" absoluteBounds="9.765, 6.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 3.56814697265625); (3.5 : 3.56814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TamiLifeDBDataContext/TipoEstablecimiento/TipoEstablecimiento_Establecimiento" />
+      <nodes>
+        <classShapeMoniker Id="ae0eed32-8194-4d93-9d04-13fc6cbaccc3" />
+        <classShapeMoniker Id="7a0660b4-8bfe-4b24-8d99-12b9cc84d1c5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.43350341796875); (6.25 : 4.43350341796875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TamiLifeDBDataContext/Establecimiento/Establecimiento_Envio" />
+      <nodes>
+        <classShapeMoniker Id="7a0660b4-8bfe-4b24-8d99-12b9cc84d1c5" />
+        <classShapeMoniker Id="2d6b4806-7b71-4d18-94ea-c36d6e635ca6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 4.33255126953125); (9 : 4.33255126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TamiLifeDBDataContext/Envio/Envio_Tarjeta" />
+      <nodes>
+        <classShapeMoniker Id="2d6b4806-7b71-4d18-94ea-c36d6e635ca6" />
+        <classShapeMoniker Id="ab534685-abff-4fcb-b931-c530ae7000b8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 3.32294840494792); (9 : 3.32294840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TamiLifeDBDataContext/Establecimiento/Establecimiento_Tarjeta" />
+      <nodes>
+        <classShapeMoniker Id="7a0660b4-8bfe-4b24-8d99-12b9cc84d1c5" />
+        <classShapeMoniker Id="ab534685-abff-4fcb-b931-c530ae7000b8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 2.63544840494792); (9 : 2.63544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TamiLifeDBDataContext/Recepcion/Recepcion_Tarjeta" />
+      <nodes>
+        <classShapeMoniker Id="5b84d8cd-45a7-4a53-ab0d-c20db7f8cf3d" />
+        <classShapeMoniker Id="ab534685-abff-4fcb-b931-c530ae7000b8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.44794840494792); (6.25 : 2.44794840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TamiLifeDBDataContext/Establecimiento/Establecimiento_Recepcion" />
+      <nodes>
+        <classShapeMoniker Id="7a0660b4-8bfe-4b24-8d99-12b9cc84d1c5" />
+        <classShapeMoniker Id="5b84d8cd-45a7-4a53-ab0d-c20db7f8cf3d" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1892be15-7b31-4da3-8451-718a8ae76683" absoluteBounds="10.125, 8.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/TamiLifeDBDataContext/Vista_ListaTarjeta" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7b820ffc-b3f6-4632-9e84-6479b3a45acf" absoluteBounds="10.14, 8.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0ad70beb-da2b-48e3-9564-e9734da3006e" absoluteBounds="0.75, 10.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/TamiLifeDBDataContext/Vista_ListaRecepcione" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3ef2dd48-d789-4077-a15f-772ca88c67f3" absoluteBounds="0.765, 11.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="01479506-de0e-429d-ae54-cbb78ccf3c83" absoluteBounds="3.75, 10.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/TamiLifeDBDataContext/Vista_ListaEnvio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="880c5f6f-a260-485b-a3cf-9a579b820ffe" absoluteBounds="3.765, 11.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4c7d9b64-20ed-43f5-b2da-3280e75b47e7" absoluteBounds="11.75, 1.125, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/TamiLifeDBDataContext/Vista_Establecimiento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9a296e89-1540-4430-9003-80a11ec91257" absoluteBounds="11.765, 1.585, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LifeCycle" Class="LifeCycleDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=WIN7-PC\SQLEXPRESS2012;Initial Catalog=LifeCycle;Integrated Security=True" SettingsObjectName="BE.Properties.Settings" SettingsPropertyName="LifeCycleConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Contact" Member="Contacts">
+    <Type Name="Contact">
+      <Column Name="ContactId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cntFirstName" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="cntLastName" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="cntAlsoKnownAs" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="cntFacility" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="cntActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="cntLanguage" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="cntCode1" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="cntCode2" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="cntContactType" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="cntValid" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
